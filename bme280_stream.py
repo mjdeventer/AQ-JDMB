@@ -10,7 +10,7 @@ import bme280 as bme
 
 while True:
   temperature, pressure,humidity = bme.readBME280All()
-  output = dt,datetime.now().strftime('%Y-%m-%d %H:%M:%S,') + '{0:.2f} C,{1:.2f} hPa,{2:.2f} %RH'.format(
+  output = dt.datetime.now().strftime('%Y-%m-%d %H:%M:%S,') + '{0:.2f} C,{1:.2f} hPa,{2:.2f} %RH'.format(
     temperature,
     pressure,
     humidity)
