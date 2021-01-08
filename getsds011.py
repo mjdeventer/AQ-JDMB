@@ -1,3 +1,7 @@
+import time, struct
+import pandas as pd
+import serial
+
 def getsds011(comport):
     """Opens COM to SDS011 and returns 1 data touple of PM25 and PM10
     input - string of the comport the SDS011 is connected to
@@ -30,4 +34,4 @@ def getsds011(comport):
             portflagsds011 = False
             #ser.flushInput()
             ser.close()
-            return pm_25, pm_10          
+            return pm_25, pm_10
