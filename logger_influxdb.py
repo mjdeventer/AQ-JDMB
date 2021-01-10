@@ -10,8 +10,8 @@ from influxdb_client.client.write_api import SYNCHRONOUS
 from getsds011 import *
 
 ### Instantiate the connection to the InfluxDB client."""
-user = 'maju.deventer@googlemail.com';
-password = 'Lnf-Leinefelde'
+user = '*************';
+password = '******'
 dbname = 'AQ-JDMB'
 protocol = 'line'
 token = "1kn0mBd9TSX9ZFSjAC-U4SpZUFPrl7kYja9sPiGVAxSEnU7lu_r6oxDv2dkRO-eWrz1fpTeY1O78HmpbFlRUtA=="
